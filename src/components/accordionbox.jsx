@@ -8,9 +8,9 @@ function Accordionbox() {
                 <Stack sx={{alignItems:'center', color:'white'}}>
                     <Typography variant='h6'>Frequently Asked Questions</Typography>
                 </Stack>
-                <Faqbox Q={faqtext.Q1} Ans={faqtext.Ans1}/>
-                <Faqbox Q={faqtext.Q2} Ans={faqtext.Ans2}/>
-                <Faqbox Q={faqtext.Q3} Ans={faqtext.Ans3}/>           
+                <Faqbox Q={faqtext.Q1} Ans={faqtext.Ans1} id='Q1'/>
+                <Faqbox Q={faqtext.Q2} Ans={faqtext.Ans2} id='Q2'/>
+                <Faqbox Q={faqtext.Q3} Ans={faqtext.Ans3} id='Q3'/>           
           </Stack>
     </Paper>
 }
